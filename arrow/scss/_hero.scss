@@ -1,0 +1,49 @@
+.hero {
+  @extend .section-arrow;
+  background: url('../images/hero.png') no-repeat;
+  background-size: cover;
+  padding: 114px 0 0;
+  height: 100vh;
+  z-index: 10;
+}
+
+.hero-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-logo {
+  margin-bottom: 35px;
+}
+
+.hero-scroll-down {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 54px;
+  color: #ffffff;
+}
+
+.hero-scroll-down-icon {
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    height: auto;
+    padding-top: 270px;
+  }
+
+  .hero-logo{
+    margin-top: 35px;
+  }
+
+  .hero-scroll-down{
+    display: none;
+  }
+}
