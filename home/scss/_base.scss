@@ -1,0 +1,119 @@
+* {
+  font-family: 'Varela Round', sans-serif;
+};
+
+.golden-btn{
+  background: -webkit-gradient(linear, 0 0, 100% 100%, from(#e7b64c), to(#c9881a));
+  outline: none;
+  border: none;
+  transition: all .3s;
+  &:hover{
+    background: -webkit-gradient(linear, 100% 100%,  0 0, from(#e7b64c), to(#c9881a));
+    cursor: pointer;
+  };
+};
+
+.wrapper {
+  width: 1460px;
+  margin: 0 auto;
+};
+
+
+.photo {
+  height: 768px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+};
+
+.right{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 160px;
+};
+
+.dright {
+  right: 20% !important;
+};
+
+.middle {
+  text-align: center;
+  margin-left: 0 !important;
+};
+
+
+.small{
+  height: 163px !important;
+};
+
+.x-small{
+  height: 135px !important;
+}
+
+.b{
+  color: #262626;
+
+}
+
+.yellow-btn{
+  height: 48px;
+  text-align: center;
+  background-color: #e7b64c;
+  color: #262626;
+  text-transform: uppercase;
+  line-height: 48px;
+  outline:none;
+  border: 1px solid #e7b64c;
+  transition: all .3s;
+  &:hover{
+    cursor: pointer;
+    background-color: #262626;
+    color: #fff;
+    border: 1px solid #e7b64c;
+    border-radius: 3px;
+  }
+}
+
+.brown-btn {
+  @extend .yellow-btn;
+  background-color: #262626;
+  color: #fff;
+  border-radius: 3px;
+  &:hover {
+    background-color: #e7b64c;
+    color: #262626;
+  }
+}
+
+.big{
+  width: 293px;
+  margin-bottom: 35px;
+  &:last-child{
+    margin-top:25px;
+  }
+}
+
+.b-small{
+  width: 200px;
+  &:last-child{
+    margin-top:25px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

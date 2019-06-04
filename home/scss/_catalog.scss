@@ -1,0 +1,144 @@
+.advertisement-title{
+  height: 222px;
+  background-color: #262626;
+
+}
+.title-text{
+  color: #eecc7d;
+  font-size: 37px;
+  line-height: 37px;
+  text-transform: uppercase;
+  padding-top: 66px;
+  margin: 0 0 0 167px;
+  position: relative;
+  font-weight: 300;
+}
+
+.boulevard {
+  @extend .photo;
+  background-image: url(../images/bg-boulevard.jpg);
+};
+
+.parking {
+  @extend .photo;
+  background-image: url(../images/parking.jpg);
+
+};
+
+.duplex {
+  @extend .photo;
+  background-image: url(../images/duplex-apartments.jpg);
+}
+
+.panoramic-view {
+  @extend .photo;
+  background-image: url(../images/panoramic-view.jpg);
+
+}
+
+.terrace {
+  @extend .photo;
+  background-image: url(../images/terrace.jpg);
+
+}
+
+.customers{
+  @extend .photo;
+  background-image: url(../images/customers.jpg);
+
+}
+
+.watch-3d{
+  @extend .photo;
+  width: 1425px !important;
+  margin: 0 auto;
+  background-image: url(../images/panoramic-view-3d.jpg);
+  }
+.panoramic-3d-view{
+  background-color: #262626;
+}
+
+
+.description {
+  width: 767px;
+  background-color: #262626;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  border: 3px solid #eac257;
+  padding: 40px;
+  position: absolute;
+  margin-left: 167px;
+  margin-top: -70px;
+};
+
+.advantages{
+  padding: 18px 20px;
+  border: 1px solid #eecc7d;
+  border-radius: 3px;
+  width: 920px;
+  margin: 42px auto;
+  box-sizing: border-box;
+};
+
+.advantages-nav{
+  display: flex;
+  justify-content: space-around;
+  padding:0;
+  margin:0;
+  li{
+    list-style: none;
+  }
+  a{
+    color: #eecc7d;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s;
+    &:hover{
+      cursor: pointer;
+      border-bottom:1px solid #eecc7d;
+    }
+  }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

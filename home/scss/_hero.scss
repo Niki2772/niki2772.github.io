@@ -1,0 +1,49 @@
+.hero {
+  background-image: url(../images/bg-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 1080px;
+  margin-top: -132px;
+
+};
+
+
+.hero-title{
+  height: 135px;
+  color: white;
+  font-size: 59px;
+  font-weight: 300;
+  line-height: 85px;
+  text-transform: uppercase;
+  padding: 320px 0 65px 170px;
+  margin: 0;
+};
+
+.parking-btn{
+  width: 389px;
+  height: 66px;
+  color: #fff;
+  font-size: 38px;
+  margin-left: 170px;
+  @extend .golden-btn;
+};
+
+
+.advertisement-title{
+  height: 222px;
+  background-color: #262626;
+  position: relative;
+}
+.title-text{
+  color: #eecc7d;
+  font-size: 37px;
+  line-height: 52px;
+  text-transform: uppercase;
+  padding-top: 77px;
+  margin-left: 167px;
+}
+
+
+

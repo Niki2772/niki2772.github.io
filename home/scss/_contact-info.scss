@@ -1,0 +1,172 @@
+.contact-info{
+  background-color: #262626;
+}
+
+.contact-info-wrap{
+  width: 1183px;
+  margin: 0 auto;
+  color: #eecc7d;
+  padding-left: 20px;
+  .title-text{
+    margin: 0;
+    padding: 0;
+    line-height: 37px;
+    text-transform: none;
+  }
+}
+
+.left-col{
+  width: 515px;
+}
+
+.ask-for-call{
+  font-size: 20px;
+  line-height: 20px;
+  padding: 45px 0 36px 0;
+  margin: 0;
+}
+.services-list{
+  font-size: 16px;
+  list-style: none;
+  padding-left: 17px;
+  margin: 0;
+
+  li{
+    padding-bottom: 35px;
+    line-height: 25px;
+  }
+}
+.call-img{
+  padding-right: 24px;
+}
+
+.call-request{
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-col{
+  width: 480px;
+  margin-top: 45px;
+  display: flex;
+}
+
+.profile-photo{
+  height: 124px;
+  width: 124px;
+  background-image: url(../images/profile-photo.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin:0 40px 45px 0;
+
+}
+
+.name{
+  font-size: 24px;
+  padding: 40px 0 23px 0;
+  line-height: 24px;
+}
+
+.position{
+  font-size: 16px;
+  line-height: 16px;
+  padding-bottom: 70px;
+}
+
+.m-phone{
+  font-size: 16px;
+}
+
+.number{
+  padding: 0;
+}
+
+.call-btn{
+  width: 262px;
+}
+
+.input-window{
+  cursor: pointer;
+  background-color: #262626;
+  color: #fff;
+  border: 1px solid #e7b64c;
+  border-radius: 3px;
+  width: 425px;
+  height: 48px;
+  margin-right: 35px;
+  padding-left: 25px;
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #e7b64c !important;
+}
+
+
+.customer-info{
+  margin: 10px 0 0 20px;
+}
+
+form{
+  margin: 0;
+}
+
+
+.input-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+
+.confirmation{
+  padding-top: 30px;
+  margin: 0;
+  font-size: 12px;
+  color: #fff;
+}
+
+.data-processing{
+  color: #e7b64c;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.our-offices{
+  padding-top: 80px;
+}
+.offices-wrap{
+  width: 605px;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 37px;
+  padding-bottom: 50px;
+
+}
+
+.parameter{
+  font-size: 16px;
+  padding-bottom: 15px;
+  color: #fff;
+}
+
+.info{
+  font-size: 21px;
+  padding-bottom: 15px;
+}
+
+.offices-left-col{
+  display: flex;
+  flex-direction:column;
+  align-items: flex-end ;
+}
+
+
+
+
+
+
+
+
+
+

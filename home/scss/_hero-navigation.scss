@@ -1,0 +1,67 @@
+.hero-nav {
+  height: 78px;
+  background-color: #151213;
+}
+
+;
+
+.menu {
+  padding-top: 32px;
+  display: flex;
+  flex: 1;
+  width: 100%;
+  li {
+    margin-left: 40px;
+    &:hover a {
+      color: #c6952b;
+      cursor: pointer;
+    }
+  ;
+    &:hover .menu-pic {
+      visibility: visible;
+    }
+  }
+;
+  a {
+    color: #f5f7f6;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s;
+  }
+;
+}
+
+;
+
+.menu-pic {
+  padding-right: 10px;
+  visibility: hidden;
+}
+
+.social-networks {
+  display: flex;
+  width: 85px;
+  justify-content: space-between;
+  padding: 20px 10px 0 0;
+  color: #fff;
+  font-size: 34px;
+
+};
+  .icon-vk:hover {
+   color: #c6952b;
+    cursor: pointer;
+    transition:  all .3s;
+
+  };
+.icon-instagram:hover {
+   color: #c6952b;
+  cursor: pointer;
+  transition:  all .3s;
+
+};
+
+
+.menu-wrap {
+  display: flex;
+  justify-content: space-between;
+}

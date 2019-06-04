@@ -1,0 +1,101 @@
+.planning-wrap{
+  width: 1183px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 16px;
+  &:last-child{
+    padding-bottom: 106px;
+  }
+}
+
+.planning{
+  background-color: #262626;
+}
+
+.apartment{
+  width: 270px;
+  height: 480px;
+  background-color: #fff;
+  border: 1px solid #474747;
+  transition: all .3s;
+  margin-right: 18px !important;
+  &:last-child{
+    margin-right: 0;
+  }
+  &:hover{
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 15px 5px rgba(38, 38, 38, 1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+};
+
+
+.parking-icon{
+  display: block;
+  margin: 0 0 10px auto ;
+}
+
+.apartment-scheme{
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.apt-specs{
+  text-align: center;
+}
+
+.square{
+  color: #2e8913;
+  font-size: 20px;
+  line-height: 20px;
+};
+
+.new-price{
+  color: #de2748;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.previous-price{
+  padding: 16px;
+  font-size: 20px;
+  line-height: 20px;
+}
+.release-date{
+  color: #939db0;
+  padding: 16px;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.calculate-btn{
+  width: 180px;
+  height: 38px;
+  line-height: 38px;
+  background-color: #ff8c01;
+  color: #fff;
+  border:1px solid #ff9f2c;
+  text-transform: uppercase;
+  font-size: 12px;
+  outline: none;
+  &:hover{
+    cursor: pointer;
+    background-color: #75c200;
+    border: 1px solid #88e100;
+  }
+}
+
+.apt-number{
+  color: #b79a8e;
+  padding: 15px;
+  font-size: 12px;
+  line-height: 12px;
+}
+
