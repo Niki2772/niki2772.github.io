@@ -79,6 +79,12 @@
 
 .number{
   padding: 0;
+  font-size: 16px;
+  color: #eecc7d;
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
 }
 
 .call-btn{
@@ -86,7 +92,7 @@
 }
 
 .input-window{
-  cursor: pointer;
+  cursor: default;
   background-color: #262626;
   color: #fff;
   border: 1px solid #e7b64c;
@@ -96,6 +102,7 @@
   margin-right: 35px;
   padding-left: 25px;
   outline: none;
+
 }
 
 input::-webkit-input-placeholder {
@@ -128,6 +135,9 @@ form{
   color: #e7b64c;
   text-decoration: none;
   cursor: pointer;
+  &:hover{
+    text-decoration: underline;
+  }
 }
 
 

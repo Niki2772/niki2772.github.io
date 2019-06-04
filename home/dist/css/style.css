@@ -443,14 +443,18 @@ template {
   font-size: 15px; }
 
 .phone {
-  font-size: 27px; }
+  font-size: 27px;
+  text-decoration: none;
+  color: #fff; }
+  .phone:hover {
+    text-decoration: underline; }
 
 .hero {
   background-image: url(../images/bg-hero.jpg);
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-size: cover;
-  height: 1080px;
+  height: 90vh;
   margin-top: -132px; }
 
 .hero-title {
@@ -660,7 +664,6 @@ template {
     margin-right: 0; }
   .apartment:hover {
     cursor: pointer;
-    border: none;
     -webkit-box-shadow: 0 0 15px 5px #262626;
     box-shadow: 0 0 15px 5px #262626;
     -webkit-transform: scale(1.1);
@@ -711,8 +714,8 @@ template {
   outline: none; }
   .calculate-btn:hover {
     cursor: pointer;
-    background-color: #75c200;
-    border: 1px solid #88e100; }
+    background-color: #e67e00;
+    border: 1px solid #e67e00; }
 
 .apt-number {
   color: #b79a8e;
@@ -792,13 +795,18 @@ template {
   font-size: 16px; }
 
 .number {
-  padding: 0; }
+  padding: 0;
+  font-size: 16px;
+  color: #eecc7d;
+  text-decoration: none; }
+  .number:hover {
+    text-decoration: underline; }
 
 .call-btn {
   width: 262px; }
 
 .input-window {
-  cursor: pointer;
+  cursor: default;
   background-color: #262626;
   color: #fff;
   border: 1px solid #e7b64c;
@@ -836,6 +844,8 @@ form {
   color: #e7b64c;
   text-decoration: none;
   cursor: pointer; }
+  .data-processing:hover {
+    text-decoration: underline; }
 
 .our-offices {
   padding-top: 80px; }
@@ -906,6 +916,8 @@ form {
   text-decoration: none;
   padding-bottom: 14px;
   line-height: 1.6; }
+  .green-link:hover {
+    text-decoration: underline; }
 
 .privacy {
   color: #d4d4d4; }

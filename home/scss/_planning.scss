@@ -27,7 +27,6 @@
   }
   &:hover{
     cursor: pointer;
-    border: none;
     box-shadow: 0 0 15px 5px rgba(38, 38, 38, 1);
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -87,8 +86,8 @@
   outline: none;
   &:hover{
     cursor: pointer;
-    background-color: #75c200;
-    border: 1px solid #88e100;
+    background-color: #e67e00;
+    border: 1px solid #e67e00;
   }
 }
 
