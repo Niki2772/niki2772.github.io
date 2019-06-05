@@ -148,6 +148,7 @@ form{
   width: 605px;
   margin:0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding-top: 37px;
   padding-bottom: 50px;
@@ -160,22 +161,34 @@ form{
   color: #fff;
 }
 
-.info{
+.info {
   font-size: 21px;
-  padding-bottom: 15px;
+  display: block;
+  margin-bottom: 15px;
+  color: #e7b64c;
 }
 
 .offices-left-col{
   display: flex;
   flex-direction:column;
-  align-items: flex-end ;
+  align-items: flex-end;
+  padding-right: 15px;
 }
 
 
+.empty-block{
+  height: 18px;
+}
+.tabs-wrap{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
 
-
-
-
+.offices-col-wrap{
+  display: flex;
+  justify-content: flex-end;
+}
 
 
 

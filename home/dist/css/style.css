@@ -381,15 +381,10 @@ template {
     color: #262626; }
 
 .big {
-  width: 293px;
-  margin-bottom: 35px; }
-  .big:last-child {
-    margin-top: 25px; }
+  width: 293px; }
 
 .b-small {
   width: 200px; }
-  .b-small:last-child {
-    margin-top: 25px; }
 
 @font-face {
   font-family: 'icomoon';
@@ -454,25 +449,22 @@ template {
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-size: cover;
-  height: 90vh;
+  height: 92.5vh;
   margin-top: -132px; }
 
 .hero-title {
-  height: 135px;
   color: white;
   font-size: 59px;
   font-weight: 300;
   line-height: 85px;
   text-transform: uppercase;
-  padding: 320px 0 65px 170px;
   margin: 0; }
 
 .parking-btn {
   width: 389px;
   height: 66px;
   color: #fff;
-  font-size: 38px;
-  margin-left: 170px; }
+  font-size: 38px; }
 
 .advertisement-title {
   height: 222px;
@@ -486,6 +478,10 @@ template {
   text-transform: uppercase;
   padding-top: 77px;
   margin-left: 167px; }
+
+.hero-wrap {
+  padding-top: calc(45vh - 84px);
+  padding-left: 170px; }
 
 .hero-nav {
   height: 78px;
@@ -501,7 +497,8 @@ template {
   flex: 1;
   width: 100%; }
   .menu li {
-    margin-left: 40px; }
+    margin-left: 40px;
+    list-style: none; }
     .menu li:hover a {
       color: #c6952b;
       cursor: pointer; }
@@ -580,6 +577,7 @@ template {
   background-image: url(../images/terrace.jpg); }
 
 .customers {
+  height: 600px !important;
   background-image: url(../images/customers.jpg); }
 
 .watch-3d {
@@ -856,6 +854,10 @@ form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -869,7 +871,9 @@ form {
 
 .info {
   font-size: 21px;
-  padding-bottom: 15px; }
+  display: block;
+  margin-bottom: 15px;
+  color: #e7b64c; }
 
 .offices-left-col {
   display: -webkit-box;
@@ -881,7 +885,28 @@ form {
   flex-direction: column;
   -webkit-box-align: end;
   -ms-flex-align: end;
-  align-items: flex-end; }
+  align-items: flex-end;
+  padding-right: 15px; }
+
+.empty-block {
+  height: 18px; }
+
+.tabs-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 35px; }
+
+.offices-col-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
 
 .footer {
   height: 120px;

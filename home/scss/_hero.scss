@@ -4,20 +4,18 @@
   background-position: 100% 100%;
   -webkit-background-size: cover;
   background-size: cover;
-  height: 90vh;
+  height: 92.5vh;
   margin-top: -132px;
 
 };
 
 
 .hero-title{
-  height: 135px;
   color: white;
   font-size: 59px;
   font-weight: 300;
   line-height: 85px;
   text-transform: uppercase;
-  padding: 320px 0 65px 170px;
   margin: 0;
 };
 
@@ -26,7 +24,6 @@
   height: 66px;
   color: #fff;
   font-size: 38px;
-  margin-left: 170px;
   @extend .golden-btn;
 };
 
@@ -45,5 +42,9 @@
   margin-left: 167px;
 }
 
+.hero-wrap{
+  padding-top: calc(45vh - 84px);
+  padding-left: 170px;
+}
 
 

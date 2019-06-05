@@ -44,8 +44,8 @@
 
 .customers{
   @extend .photo;
+  height: 600px !important;
   background-image: url(../images/customers.jpg);
-
 }
 
 .watch-3d{
