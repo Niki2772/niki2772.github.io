@@ -4,47 +4,106 @@
   background-position: 100% 100%;
   -webkit-background-size: cover;
   background-size: cover;
-  height: 92.5vh;
-  margin-top: -132px;
+  height: 100vh;
   min-height: 500px;
-};
+  padding: 130px 0 80px 0;
 
+  .wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 
-.hero-title{
+.hero-title {
   color: white;
   font-size: 59px;
   font-weight: 300;
   line-height: 85px;
   text-transform: uppercase;
-  margin: 0;
-};
+  margin: 0 0 20px 0;
+}
 
-.parking-btn{
+.parking-btn {
   width: 389px;
   height: 66px;
   color: #fff;
   font-size: 38px;
   @extend .golden-btn;
-};
-
-
-.advertisement-title{
-  height: 222px;
-  background-color: #262626;
-  position: relative;
-}
-.title-text{
-  color: #eecc7d;
-  font-size: 37px;
-  line-height: 52px;
-  text-transform: uppercase;
-  padding-top: 77px;
-  margin-left: 167px;
 }
 
-.hero-wrap{
-  padding-top: calc(45vh - 84px);
-  padding-left: 170px;
+.hero-nav {
+  height: 78px;
+  background-color: #151213;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  > .wrapper {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+.hero-nav-menu {
+  @extend .menu;
+  display: flex;
+  margin-left: -25px;
+
+  li {
+    margin-left: 40px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  a {
+    color: #f5f7f6;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 25px;
+    cursor: pointer;
+
+    &:hover {
+      color: #c6952b;
+      background: url("../images/hover-pic.jpg") no-repeat 0 0;
+    }
+  }
+}
+
+.hero-nav-socials {
+  @extend .menu;
+  @extend .hero-nav-menu;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 34px;
+
+  li {
+    margin-left: 18px;
+  }
+
+  a {
+    padding: 0;
+  }
+}
+
+.icon-vk:hover {
+  color: #c6952b;
+  cursor: pointer;
+  transition: all .3s;
 }
 
 
+.icon-instagram:hover {
+  color: #c6952b;
+  cursor: pointer;
+  transition: all .3s;
+
+}

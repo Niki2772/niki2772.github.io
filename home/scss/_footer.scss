@@ -1,39 +1,28 @@
-.footer{
-  height: 120px;
+.footer {
   background-color: #f2f3f2;
-  font-size: 11px;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.footer-wrap{
-  width: 1170px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-right{
-  width: 585px;
-  padding-top: 58px;
-}
-.footer-left{
-  padding-top: 25px;
-}
-.brand-mark{
+.brand-mark {
   color: #737373;
   text-transform: uppercase;
   margin: 0;
   padding-bottom: 20px;
 }
 
-.green-link{
+.green-link {
   color: #90c319;
   text-decoration: none;
   padding-bottom: 14px;
   line-height: 1.6;
-  &:hover{
+
+  &:hover {
     text-decoration: underline;
   }
 }
-.privacy{
+
+.privacy {
   color: #d4d4d4;
 }

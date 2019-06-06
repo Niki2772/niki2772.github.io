@@ -1,16 +1,20 @@
-
 .header {
   height: 132px;
   color: #fff;
   font-size: 17px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
 }
 
 .header-wrap {
-  padding: 25px;
+  @extend .wrapper;
+  padding-top: 25px;
+  padding-bottom: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  @extend .wrapper;
 }
 
 .call {
@@ -27,7 +31,8 @@
   font-size: 27px;
   text-decoration: none;
   color: #fff;
-  &:hover{
+
+  &:hover {
     text-decoration: underline;
   }
 }

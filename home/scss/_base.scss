@@ -1,53 +1,34 @@
-* {
-  font-family: 'Varela Round', sans-serif;
-};
+html {
+  font-family: 'Circe', sans-serif;
+}
 
-.golden-btn{
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #262626;
+}
+
+.golden-btn {
   background: -webkit-gradient(linear, 0 0, 100% 100%, from(#e7b64c), to(#c9881a));
   outline: none;
   border: none;
   transition: all .3s;
-  &:hover{
-    background: -webkit-gradient(linear, 100% 100%,  0 0, from(#e7b64c), to(#c9881a));
+
+  &:hover {
+    background: -webkit-gradient(linear, 100% 100%, 0 0, from(#e7b64c), to(#c9881a));
     cursor: pointer;
-  };
-};
+  }
+}
 
 .wrapper {
-  width: 1460px;
+  max-width: 1170px;
   margin: 0 auto;
-};
-
-
-.photo {
-  height: 768px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 100% 100%;
-};
-
-.right{
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 160px;
-};
-
-.dright {
-  right: 20% !important;
-};
-
-.middle {
-  text-align: center;
-  margin-left: 0 !important;
-};
-
-
-.small{
-  height: 163px !important;
-};
-
-.x-small{
-  height: 135px !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  z-index: 1;
 }
 
 .yellow-btn{
@@ -64,44 +45,47 @@
     cursor: pointer;
     background-color: #262626;
     color: #fff;
-    border: 1px solid #e7b64c;
-    border-radius: 3px;
   }
 }
 
-.brown-btn {
-  @extend .yellow-btn;
+
+.menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.article-wrap {
+  padding-top: 68px;
+}
+
+.article-title {
+  @extend .wrapper;
+
+  h2 {
+    color: #eecc7d;
+    font-size: 37px;
+    line-height: 52px;
+    text-transform: uppercase;
+    padding: 0 0 43px 0;
+    margin: 0 0 70px 0;
+  }
+}
+
+.article-description {
+  width: 767px;
   background-color: #262626;
-  color: #fff;
-  border-radius: 3px;
-  &:hover {
-    background-color: #e7b64c;
-    color: #262626;
-  }
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  border: 3px solid #eac257;
+  padding: 40px;
+  position: absolute;
+  margin-top: -70px;
 }
-
-.big{
-  width: 293px;
-}
-
-.b-small{
-  width: 200px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

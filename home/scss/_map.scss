@@ -1,0 +1,50 @@
+.map-wrap {
+  text-align: center;
+
+  .article-title {
+    h2 {
+      margin-bottom: 0;
+      padding-bottom: 30px;
+    }
+  }
+}
+
+.advantages-nav {
+  display: inline-flex;
+  justify-content: space-around;
+  border: 1px solid #eecc7d;
+  border-radius: 3px;
+  padding: 0;
+  margin: 0 auto 42px auto;
+  li {
+    list-style: none;
+    &:first-child{
+      a{
+        padding-left: 24px;
+      }
+    }
+    &:last-child{
+      a{
+        padding-right: 24px;
+      }
+    }
+  }
+
+  a {
+    color: #eecc7d;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    padding: 0 12px;
+    &:hover {
+      background: #eecc7d;
+      color: #fff;
+    }
+  }
+}

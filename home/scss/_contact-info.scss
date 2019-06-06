@@ -1,35 +1,27 @@
-.contact-info{
+.contact-info {
   background-color: #262626;
-}
-
-.contact-info-wrap{
-  width: 1183px;
-  margin: 0 auto;
   color: #eecc7d;
-  padding-left: 20px;
-  .title-text{
-    margin: 0;
-    padding: 0;
-    line-height: 37px;
-    text-transform: none;
-  }
+  padding-top: 80px;
 }
 
-.call-request-left{
+.call-request-left {
   width: 515px;
 }
 
-.ask-for-call{
+.ask-for-call {
   font-size: 20px;
   line-height: 20px;
   padding: 45px 0 36px 0;
   margin: 0;
 }
-.services-list{
+
+.services-list {
   font-size: 16px;
   list-style: none;
   margin: 0;
-  li{
+  padding: 0;
+
+  li {
     padding-bottom: 35px;
     padding-left: 55px;
     line-height: 25px;
@@ -38,117 +30,118 @@
     background-position-y: 3px;
   }
 }
-.call-img{
+
+.call-img {
   padding-right: 24px;
 }
 
-.call-request{
+.call-request {
   display: flex;
   justify-content: space-between;
 }
 
-.call-request-right{
+.call-request-right {
   width: 480px;
   margin-top: 45px;
   display: flex;
 }
 
-.profile-photo{
+.profile-photo {
   height: 124px;
   width: 124px;
   background-image: url(../images/profile-photo.png);
   background-repeat: no-repeat;
-  background-size:cover;
-  margin:0 40px 45px 0;
+  background-size: cover;
+  margin: 0 40px 45px 0;
 
 }
 
-.name{
+.name {
   font-size: 24px;
   padding: 40px 0 23px 0;
   line-height: 24px;
 }
 
-.position{
+.position {
   font-size: 16px;
   line-height: 16px;
   padding-bottom: 65px;
 }
 
-.m-phone{
+.m-phone {
   font-size: 16px;
 }
 
-.number{
+.number {
   padding: 0;
   font-size: 16px;
   color: #eecc7d;
   text-decoration: none;
-  &:hover{
+
+  &:hover {
     text-decoration: underline;
   }
 }
 
-.call-btn{
+.call-btn {
   width: 262px;
-}
-
-.input-window{
-  cursor: default;
-  background-color: #262626;
-  color: #fff;
-  border: 1px solid #e7b64c;
-  border-radius: 3px;
-  width: 425px;
-  height: 48px;
-  margin-right: 35px;
-  padding-left: 25px;
-  outline: none;
-
 }
 
 input::-webkit-input-placeholder {
   color: #e7b64c !important;
 }
 
+.support-form {
+  margin: 10px 0 0;
 
-.customer-info{
-  margin: 10px 0 0 20px;
+  form {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  input[type="text"] {
+    cursor: default;
+    background-color: #262626;
+    color: #fff;
+    border: 1px solid #e7b64c;
+    border-radius: 3px;
+    width: 425px;
+    height: 48px;
+    margin-right: 35px;
+    padding-left: 25px;
+    outline: none;
+  }
 }
 
-form{
-  margin: 0;
-}
-
-
-.input-wrap{
-  display: flex;
-  justify-content: space-between;
-}
-
-.confirmation{
+.confirmation {
   padding-top: 30px;
   margin: 0;
   font-size: 12px;
   color: #fff;
 }
 
-.data-processing{
+.data-processing {
   color: #e7b64c;
   text-decoration: none;
   cursor: pointer;
-  &:hover{
+
+  &:hover {
     text-decoration: underline;
   }
 }
 
 
-.our-offices{
+.our-offices {
   padding-top: 80px;
+  text-align: center;
+  h2{
+    padding-bottom: 20px;
+  }
 }
-.offices-wrap{
+
+.offices-wrap {
   width: 605px;
-  margin:0 auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -157,7 +150,7 @@ form{
 
 }
 
-.parameter{
+.parameter {
   font-size: 16px;
   padding-bottom: 15px;
   color: #fff;
@@ -170,24 +163,28 @@ form{
   color: #e7b64c;
 }
 
-.offices-left-col{
+.offices-left-col {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: flex-end;
   padding-right: 15px;
 }
 
+.offices-right-col{
+  text-align: left;
+}
 
-.empty-block{
+.empty-block {
   height: 18px;
 }
-.tabs-wrap{
+
+.tabs-wrap {
   display: flex;
   justify-content: space-between;
   margin-bottom: 35px;
 }
 
-.offices-col-wrap{
+.offices-col-wrap {
   display: flex;
   justify-content: flex-end;
 }

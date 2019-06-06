@@ -1,0 +1,38 @@
+.slick-dots {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  list-style: none;
+  margin: 0;
+
+  li {
+    padding-left: 7px;
+    padding-right: 7px;;
+  }
+
+  .slick-active {
+    button {
+      background-color: #eecc7d;
+      opacity: 1 !important;
+    }
+  }
+
+  button {
+    width: 56px;
+    height: 8px;
+    opacity: 0.6;
+    background-color: #fff;
+    color: transparent;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    outline: none;
+    font-size: 0;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
