@@ -314,7 +314,8 @@ html {
   box-sizing: border-box; }
 
 body {
-  background: #262626; }
+  background: #262626;
+  min-width: 1170px; }
 
 .golden-btn, .call, .parking-btn {
   background: -webkit-gradient(linear, 0 0, 100% 100%, from(#e7b64c), to(#c9881a));
@@ -327,7 +328,8 @@ body {
     cursor: pointer; }
 
 .wrapper, .article-title, .header-wrap {
-  max-width: 1170px;
+  min-width: 1170px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -380,6 +382,10 @@ body {
   padding: 40px;
   position: absolute;
   margin-top: -70px; }
+
+.slick-slide-img {
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 /***ICOMOON***/
 @font-face {

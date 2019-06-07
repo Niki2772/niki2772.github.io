@@ -1,0 +1,64 @@
+.article {
+  min-height: 640px;
+  background-color: #f6f6f6;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  display: flex;
+  align-items: center;
+
+  & > .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+  }
+
+  p {
+    color: #5e6372;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+
+.article-img-left {
+  background-position: 0 0;
+}
+
+.article-img-right {
+  background-position: 100%;
+
+  & > .wrapper {
+    align-items: flex-start;
+  }
+
+  .article-info{
+    padding: 0 50px 0 0;
+  }
+}
+
+.article-nature {
+  background-image: url(../images/nature-bg.jpg);
+}
+
+.article-city {
+  background-image: url(../images/city-bg.jpg);
+}
+
+.article-info {
+  width: 50%;
+  padding: 0 0 0 30px;
+  p {
+    padding: 36px 0 60px 0;
+  }
+
+  .btn-blue {
+    float: left;
+  }
+
+  h2 {
+    padding: 0;
+  }
+}

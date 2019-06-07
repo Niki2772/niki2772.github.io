@@ -1,0 +1,46 @@
+.signup {
+  background-image: url(../images/newsletter-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 490px;
+  background-position: 50% 50%;
+  & > .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+}
+
+.signup-form {
+  width: 396px;
+  padding-top: 57px;
+}
+
+.input-email {
+  height: 48px;
+  width: 285px;
+  padding: 0 30px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px 0 0 50px;
+  color: #fff;
+  outline: none;
+  font-size: 18px;
+  font-weight: 300;
+  &::placeholder {
+    color: #fff;
+  }
+}
+
+.btn-submit {
+  width: 132px;
+  border: none;
+  color: #cb0035;
+  background-color: #fff;
+  float: right;
+  margin-left: -25px;
+  font-size: 18px;
+  outline: none;
+}

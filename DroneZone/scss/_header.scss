@@ -1,0 +1,50 @@
+.header {
+  height: 130px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  & > .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.header-menu {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 17px 13px 17px;
+    border: 1px solid transparent;
+    display: block;
+    &:hover {
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      border-radius: 25px;
+    }
+
+  }
+
+}
+
+.header-logo {
+  font-size: 36px;
+  color: #fff;
+  line-height: 130px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header-logo i {
+  font-weight: 300;
+}

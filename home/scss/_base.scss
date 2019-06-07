@@ -1,3 +1,6 @@
+$min-width: 1170px;
+$max-width: 1400px;
+
 html {
   font-family: 'Circe', sans-serif;
 }
@@ -8,6 +11,7 @@ html {
 
 body {
   background: #262626;
+  min-width: 1170px;
 }
 
 .golden-btn {
@@ -23,7 +27,8 @@ body {
 }
 
 .wrapper {
-  max-width: 1170px;
+  min-width: $min-width;
+  max-width: $max-width;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -31,17 +36,18 @@ body {
   z-index: 1;
 }
 
-.yellow-btn{
+.yellow-btn {
   height: 48px;
   text-align: center;
   background-color: #e7b64c;
   color: #262626;
   text-transform: uppercase;
   line-height: 48px;
-  outline:none;
+  outline: none;
   border: 1px solid #e7b64c;
   transition: all .3s;
-  &:hover{
+
+  &:hover {
     cursor: pointer;
     background-color: #262626;
     color: #fff;
@@ -88,4 +94,9 @@ body {
   padding: 40px;
   position: absolute;
   margin-top: -70px;
+}
+
+.slick-slide-img {
+  background-repeat: no-repeat;
+  background-size: cover;
 }

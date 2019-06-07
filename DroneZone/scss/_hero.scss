@@ -1,0 +1,95 @@
+.hero {
+  min-height: 580px;
+  height: 100vh;
+  background-image: url(../images/dronezone-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+
+  & > .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    padding: 130px 0 0;
+  }
+}
+
+.hero-in {
+  width: 558px;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 30px 0 65px 0;
+  line-height: 1.5;
+}
+
+.btn-play {
+  position: relative;
+}
+
+.btn-play:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 0 5px 10px;
+  border-color: transparent transparent transparent #fff;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translate(0, -50%);
+}
+
+.btn-play:hover:before {
+  border-color: transparent transparent transparent #dc4e0e;
+}
+
+.hero-btns {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+  .btn {
+    margin: 0 10px;
+  }
+}
+
+.scroll-me-icon {
+  width: 72px;
+  height: 45px;
+  background-image: url(../images/scroll-pic.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  display: block;
+}
+
+.scroll-me-text {
+  padding-top: 17px;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.scroll-me {
+  width: 72px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.scroll-me-icon:hover {
+  cursor: pointer;
+}

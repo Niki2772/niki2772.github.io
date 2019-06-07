@@ -1,0 +1,80 @@
+body {
+  font-family: 'Proxima Nova Rg';
+  line-height: 1.2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='submit']{
+  -webkit-appearance: none;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #cb0035;
+  padding-top: 120px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #d32721;
+  padding: 17px 0 29px 0;
+}
+
+.btn {
+  height: 48px;
+  line-height: 46px;
+  width: 203px;
+  display: inline-block;
+  font-weight: 300;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  color: #fff;
+  padding: 0 20px;
+  text-align: center;
+  transition: all .3s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #d32721;
+  background-color: #fff;
+}
+
+.btn-blue {
+  border: 1px solid #264699;
+  color: #264699;
+}
+
+.btn-blue:hover {
+  background-color: #264699;
+  color: #fff;
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(left, #cb0035, #e06900);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.wrapper {
+  max-width: 1326px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
